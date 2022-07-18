@@ -39,7 +39,6 @@ app.get("/", (req, res) => {
   //   res.send("This is working!");
   res.send(database.users);
 });
-
 app.post("/signin", (req, res) => {
   // Load hash from your password DB.
   bcrypt.compare(
