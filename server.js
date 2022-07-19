@@ -97,7 +97,7 @@ app.get("/profile/:id", (req, res) => {
     }
   });
   if (!found) {
-    res.status(400).json("Not found!");
+    res.status(400).json("Not found");
   }
 });
 
